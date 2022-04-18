@@ -1,0 +1,254 @@
+/* ===== Navbar ===== */
+  .header {
+
+    width: auto;
+  
+    height: 421px;
+  
+    flex-grow: 0;
+  
+    margin: 0 0 160px;
+  
+    padding: 0 0 3px;
+  
+    background-image: url("./images/bg-hero-desktop.svg") ;
+  
+  }
+
+    .site-navbar {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        z-index: 1999;
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 1rem;
+        position: absolute;
+    }
+
+
+    .nav-container{
+        display: flex;
+        flex: center;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+  
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+	
+}
+
+.row>* {
+    flex: 1 1 160px;
+}
+
+.col-3 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.col-9 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.text-right {
+	text-align: right !important;
+    
+}
+
+.brand-img{
+    height: 25px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.box>* {
+    flex: 1 1 160px;
+}
+
+.mockup{
+    height: 100%;
+    width: 100%;
+}
+
+.build-box{
+    display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.build-box>*{
+    flex: 1 1 80px;
+}
+
+.Build-The-Community {
+    width: 536px;
+    height: 120px;
+    margin: 0 0 32px;
+    padding: 84.5px 88px 11.4px 424px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00252e;
+  }
+
+
+
+  .Path-2 {
+    width: 437px;
+    height: 408px;
+    flex-grow: 0;
+    margin: 0 288px 310px 0;
+    background-image: linear-gradient(126deg, rgba(255, 255, 255, 0) -19%, #c9f0ff 106%);
+  }
+
+
+  /* .Build-The-Community {
+    
+  } */
+.get-started{
+    color: #fff;
+    width: 280px;
+    height: 56px;
+    padding: 17px 69px 20px 70px;
+    border-radius: 28px;
+    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+    background-color: #ff52c1;
+     
+}
+
+  .footer {
+    width: auto;
+    height: 318px;
+    margin: 344px 0 0;
+    padding: 144px 78px 64px 120px;
+    background-color: #00252e;
+  }
+
+  .no-style-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .color_logo_transparent-footer {
+    width: 152px;
+    height: 24px;
+    flex-grow: 0;
+    margin: 0 357px 31px 0;
+    background-color: #fff;
+  }
+
+  img.place {
+    width: 13px;
+    height: 18px;
+    align-self: center;
+    flex-grow: 0;
+    object-fit: contain;
+  }
+
+
+  .Lorem-ipsum-dolor-si {
+    width: 339px;
+    height: 72px;
+    flex-grow: 0;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  img.phone-in-talk {
+    width: 18px;
+    height: 18px;
+    align-self: center;
+    flex-grow: 0;
+    object-fit: contain;
+  }
+
+  span {
+    width: 110px;
+    height: 24px;
+    margin: 1px 0 0 16px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+    
+
+  img.Shape {
+    width: 20px;
+    height: 16px;
+    flex-grow: 0;
+    object-fit: contain;
+    background-color: #fff;
+  }
+
+
+  .examplehuddlecom {
+    width: 147px;
+    height: 24px;
+    margin: 1px 0 0 16px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+
+  .nav-col{
+    box-sizing: border-box;
+    color: rgb(249, 249, 250);
+    flex-basis: 160px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 200px;
+    min-width: 160px;
+    padding-right: 16px;
+  }
+
+  .container{
+      display: flex;
+      align-items: center;
+      
+  }
+
+  .social-icons{
+     margin: 4px;
+  }
